@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SingleCar = ({ car }) => {
-    console.log(car);
+    // console.log(car);
     return (
         <div className="card lg:card-side bg-base-100 shadow-lg shadow-indigo-500/50 my-10">
             <figure className='w-full'><img src={car.img} alt="Album" /></figure>
